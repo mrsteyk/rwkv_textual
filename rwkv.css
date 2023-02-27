@@ -1,0 +1,26 @@
+.dock-left {
+    dock: left;
+}
+
+.dock-right {
+    dock: right;
+}
+
+OptionsContainer {
+    height: auto;
+    margin: 1 0;
+    layout: grid;
+    grid-size: 2;
+    grid-rows: 4;
+    grid-columns: 16 1fr;
+}
+OptionsContainer .label {
+    padding: 1 2;
+    text-align: right;
+}
+
+#md-output {
+    padding: 1 2;
+    background: $boost;
+    border: wide $background;
+}

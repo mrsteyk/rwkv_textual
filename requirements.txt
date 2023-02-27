@@ -1,0 +1,4 @@
+# any pytorch
+textual
+tokenizers
+numpy
